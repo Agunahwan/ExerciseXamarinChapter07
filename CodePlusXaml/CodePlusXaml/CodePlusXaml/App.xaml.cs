@@ -10,7 +10,8 @@ namespace CodePlusXaml
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new CodePlusXamlPage();
         }
 
         protected override void OnStart()
