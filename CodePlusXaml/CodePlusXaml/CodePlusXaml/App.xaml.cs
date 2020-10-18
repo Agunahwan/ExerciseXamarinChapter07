@@ -11,7 +11,8 @@ namespace CodePlusXaml
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new CodePlusXamlPage();
+            //MainPage = new CodePlusXamlPage();
+            MainPage = new ScaryColorListPage();
         }
 
         protected override void OnStart()
